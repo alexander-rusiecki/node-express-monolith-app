@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('./partials/head.ejs') %>
+  <body>
+    <header><%- include('./partials/nav.ejs') %></header>
+    <main class="books-container">
+      <% if (books.length > 0 ) { %> <% books.forEach(book => { %>
+      <article class="book-card">
+        <a href="/books/<%= book.id %>">
+          <img
+            src="<%= book.coverUrl %>"
+            alt="<%= book.title %>
+      "
+          />
+          <h3><%= book.title %></h3>
+          <p><%= book.author %></p>
+          <% if(book.isAvailable) { %>
+          <h4>is available to borrow</h4>
+          <% } else { %>
+          <h4>is not available to borrow</h4>
+          <% } %>
+        </a>
+      </article>
+      <% }) %> <% } %>
+    </main>
+  </body>
+</html>

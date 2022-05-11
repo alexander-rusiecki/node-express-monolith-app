@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('./partials/head.ejs') %>
+  <body>
+    <header><%- include('./partials/nav.ejs') %></header>
+    <main class="details-container">
+      <article class="book-card">
+        <% if(selectedBook ) { %>
+        <img
+          src="<%= selectedBook.coverUrl %>"
+          alt="<%= selectedBook.title %>
+      "
+        />
+        <h3><%= selectedBook.title %></h3>
+        <p><%= selectedBook.author %></p>
+        <% } %>
+      </article>
+    </main>
+  </body>
+</html>
