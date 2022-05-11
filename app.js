@@ -15,12 +15,11 @@ app.use(cors());
 app.use(express.urlencoded({ extended: true }));
 app.use(booksRoute);
 
-app.get('/', (req, res) => {
-  res.render('index', { title: 'Home' });
-});
+app.get('/', (req, res) => res.render('index', { title: 'Home' }));
+app.get('/add', (req, res) => res.render('add', { title: 'Add book' }));
 
-app.use((req, res) => {
-  res.status(404).render('404', { title: '404 - Not found' });
-});
+app.use((req, res) =>
+  res.status(404).render('404', { title: '404 - Not found' })
+);
 
 app.listen(PORT, () => console.log(`Server running on port: ${PORT}`));

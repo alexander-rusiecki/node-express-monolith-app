@@ -7,20 +7,6 @@
     "id": "XEybKfq2sotLwQVI31lPd"
   },
   {
-    "title": "Finding me",
-    "author": "Viola Davis",
-    "coverUrl": "https://storage.googleapis.com/du-prd/books/images/9780063037328.jpg",
-    "isAvailable": true,
-    "id": "MImEiyyUO1a0v0OiwndwT"
-  },
-  {
-    "title": "Unmasked",
-    "author": "Paul Holes",
-    "coverUrl": "https://storage.googleapis.com/du-prd/books/images/9781250622792.jpg",
-    "isAvailable": true,
-    "id": "Dx8ry_5vBVtH2lbcnTevg"
-  },
-  {
     "title": "The palace papers",
     "author": "Tina Brown",
     "coverUrl": "https://storage.googleapis.com/du-prd/books/images/9780593138090.jpg",
@@ -33,5 +19,26 @@
     "coverUrl": "https://s2.adlibris.com/images/11242096/ugly-love.jpg",
     "isAvailable": true,
     "id": "L1sU2gMWdZisUdIElLfs3"
+  },
+  {
+    "title": "Finding me",
+    "author": "Viola Davis",
+    "coverUrl": "https://storage.googleapis.com/du-prd/books/images/9780063037328.jpg",
+    "isAvailable": true,
+    "id": "MImEiyyUO1a0v0OiwndwT"
+  },
+  {
+    "title": "The Diana chronicles",
+    "author": "Tina Brown",
+    "coverUrl": "https://images-na.ssl-images-amazon.com/images/I/41xZ2D2V+KL._SX322_BO1,204,203,200_.jpg",
+    "isAvailable": false,
+    "id": "1P5P5nyFFiK6rYe9T7s3Z"
+  },
+  {
+    "title": "Unmasked",
+    "author": "Paul Holes",
+    "coverUrl": "https://storage.googleapis.com/du-prd/books/images/9781250622792.jpg",
+    "isAvailable": true,
+    "id": "Dx8ry_5vBVtH2lbcnTevg"
   }
 ]

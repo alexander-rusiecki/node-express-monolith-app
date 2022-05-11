@@ -65,7 +65,7 @@ nav a {
 
 .book-card,
 .book-details-card {
-  margin: 0 2em;
+  margin: 0 2em 2em 2em;
   text-align: center;
 }
 
@@ -114,7 +114,6 @@ button {
   background-color: brown;
   color: rgb(227, 227, 227);
   margin-top: 1em;
-  padding: 1em 2em;
   cursor: pointer;
   border: none;
   outline: inherit;
@@ -122,15 +121,20 @@ button {
   font-size: 1rem;
 }
 
-button.borrow {
+button.borrow,
+button.add {
   outline: 1px solid brown;
   background-color: white;
   color: brown;
   margin-top: 1em;
-  padding: 1em 2em;
-  cursor: pointer;
-  border-radius: 0.3em;
-  font-size: 1rem;
+  padding: 0.6em 2em;
+  transition: all 0.1s ease-in-out;
+}
+
+button.borrow:hover,
+button.add:hover {
+  background-color: brown;
+  color: white;
 }
 
 .green {

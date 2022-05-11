@@ -1,74 +1,17 @@
 const express = require('express');
-const fs = require('fs');
-const { nanoid } = require('nanoid');
+
+const {
+  getAllBooks,
+  getBookById,
+  borrowBook,
+  addBook,
+} = require('../controllers/bookControllers');
 
 const router = express.Router();
 
-router.get('/books', (req, res) => {
-  fs.readFile('books.json', (err, data) => {
-    if (err) {
-      console.log(err);
-    }
-    const books = JSON.parse(data);
-    res.render('books', { title: 'Our books', books });
-  });
-});
+router.get('/books', getAllBooks);
+router.get('/books/:id', getBookById);
+router.post('/borrow/:id', borrowBook);
+router.post('/add', addBook);
 
-router.get('/books/:id', (req, res) => {
-  const { id } = req.params;
-  fs.readFile('books.json', (err, data) => {
-    if (err) {
-      console.log(err);
-    }
-    const selectedBook = JSON.parse(data).find(book => book.id === id);
-    res.render('book', { title: 'Book details', selectedBook });
-  });
-});
-
-router.get('/add', (req, res) => {
-  res.render('add', { title: 'Add book' });
-});
-
-router.post('/borrow/:id', (req, res) => {
-  const { id } = req.params;
-  fs.readFile('books.json', (err, data) => {
-    if (err) {
-      console.log(err);
-    }
-    let books = JSON.parse(data);
-    let selectedBook = JSON.parse(data).find(book => book.id === id);
-    selectedBook = {
-      ...selectedBook,
-      isAvailable: !selectedBook.isAvailable,
-    };
-    books = books.filter(book => book.id !== id);
-    books = [...books, selectedBook];
-    fs.writeFile('books.json', JSON.stringify(books, null, 2), err => {
-      if (err) {
-        console.log(err);
-      }
-      res.redirect('/books');
-    });
-  });
-});
-
-router.post('/add', (req, res) => {
-  fs.readFile('books.json', (err, data) => {
-    if (err) {
-      console.log(err);
-    }
-    const books = JSON.parse(data);
-    books.push({
-      ...req.body,
-      id: nanoid(),
-      isAvailable: req.body.isAvailable === 'available' ? true : false,
-    });
-    fs.writeFile('books.json', JSON.stringify(books, null, 2), err => {
-      if (err) {
-        console.log(err);
-      }
-      res.redirect('/books');
-    });
-  });
-});
 module.exports = router;
