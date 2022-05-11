@@ -68,6 +68,11 @@ nav a {
   text-align: center;
 }
 
+.book-card img {
+  height: 20em;
+  width: auto;
+}
+
 form {
   height: 90vh;
   display: flex;

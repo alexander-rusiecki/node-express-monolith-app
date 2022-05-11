@@ -7,11 +7,7 @@
       <% if (books.length > 0 ) { %> <% books.forEach(book => { %>
       <article class="book-card">
         <a href="/books/<%= book.id %>">
-          <img
-            src="<%= book.coverUrl %>"
-            alt="<%= book.title %>
-      "
-          />
+          <img src="<%= book.coverUrl %>" alt="<%= book.title %>" />
           <h3><%= book.title %></h3>
           <p><%= book.author %></p>
           <% if(book.isAvailable) { %>

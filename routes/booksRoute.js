@@ -44,8 +44,8 @@ router.post('/add', (req, res) => {
       if (err) {
         console.log(err);
       }
+      res.redirect('/books');
     });
-    res.redirect('/books');
   });
 });
 module.exports = router;
