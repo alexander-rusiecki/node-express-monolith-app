@@ -10,11 +10,12 @@
           <img src="<%= book.coverUrl %>" alt="<%= book.title %>" />
           <h3><%= book.title %></h3>
           <p><%= book.author %></p>
-          <% if(book.isAvailable) { %>
-          <h4>is available to borrow</h4>
-          <% } else { %>
-          <h4>is not available to borrow</h4>
-          <% } %>
+          <small
+            class="<% if(book.isAvailable) { %> green <% } else { %> red <% } %>"
+          >
+            <% if(book.isAvailable) { %> available <% } else { %> not available
+            <% } %>
+          </small>
         </a>
       </article>
       <% }) %> <% } %>

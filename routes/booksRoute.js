@@ -29,6 +29,29 @@ router.get('/add', (req, res) => {
   res.render('add', { title: 'Add book' });
 });
 
+router.post('/borrow/:id', (req, res) => {
+  const { id } = req.params;
+  fs.readFile('books.json', (err, data) => {
+    if (err) {
+      console.log(err);
+    }
+    let books = JSON.parse(data);
+    let selectedBook = JSON.parse(data).find(book => book.id === id);
+    selectedBook = {
+      ...selectedBook,
+      isAvailable: !selectedBook.isAvailable,
+    };
+    books = books.filter(book => book.id !== id);
+    books = [...books, selectedBook];
+    fs.writeFile('books.json', JSON.stringify(books, null, 2), err => {
+      if (err) {
+        console.log(err);
+      }
+      res.redirect('/books');
+    });
+  });
+});
+
 router.post('/add', (req, res) => {
   fs.readFile('books.json', (err, data) => {
     if (err) {

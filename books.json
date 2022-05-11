@@ -1,17 +1,17 @@
 [
   {
+    "title": "Reminders of him",
+    "author": "Colleen Hoover",
+    "coverUrl": "https://s2.adlibris.com/images/61012033/reminders-of-him.jpg",
+    "isAvailable": true,
+    "id": "XEybKfq2sotLwQVI31lPd"
+  },
+  {
     "title": "Finding me",
     "author": "Viola Davis",
     "coverUrl": "https://storage.googleapis.com/du-prd/books/images/9780063037328.jpg",
     "isAvailable": true,
     "id": "MImEiyyUO1a0v0OiwndwT"
-  },
-  {
-    "title": "The palace papers",
-    "author": "Tina Brown",
-    "coverUrl": "https://storage.googleapis.com/du-prd/books/images/9780593138090.jpg",
-    "id": "uLdLoIV9dODAVQht8j9Sh",
-    "isAvailable": false
   },
   {
     "title": "Unmasked",
@@ -21,10 +21,17 @@
     "id": "Dx8ry_5vBVtH2lbcnTevg"
   },
   {
-    "title": "Reminders of him",
+    "title": "The palace papers",
+    "author": "Tina Brown",
+    "coverUrl": "https://storage.googleapis.com/du-prd/books/images/9780593138090.jpg",
+    "id": "uLdLoIV9dODAVQht8j9Sh",
+    "isAvailable": true
+  },
+  {
+    "title": "Ugly love",
     "author": "Colleen Hoover",
-    "coverUrl": "https://s2.adlibris.com/images/61012033/reminders-of-him.jpg",
+    "coverUrl": "https://s2.adlibris.com/images/11242096/ugly-love.jpg",
     "isAvailable": true,
-    "id": "XEybKfq2sotLwQVI31lPd"
+    "id": "L1sU2gMWdZisUdIElLfs3"
   }
 ]

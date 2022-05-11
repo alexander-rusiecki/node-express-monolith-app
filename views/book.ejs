@@ -4,7 +4,7 @@
   <body>
     <header><%- include('./partials/nav.ejs') %></header>
     <main class="details-container">
-      <article class="book-card">
+      <article class="book-details-card">
         <% if(selectedBook ) { %>
         <img
           src="<%= selectedBook.coverUrl %>"
@@ -13,6 +13,16 @@
         <h3><%= selectedBook.title %></h3>
         <p><%= selectedBook.author %></p>
         <% } %>
+        <form
+          class="borrow-form"
+          action="/borrow/<%= selectedBook.id %>"
+          method="POST"
+        >
+          <button type="submit" class="borrow">
+            <% if(selectedBook.isAvailable) { %> Borrow <% } else { %> Return <%
+            } %>
+          </button>
+        </form>
       </article>
     </main>
   </body>

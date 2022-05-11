@@ -36,11 +36,11 @@ nav a {
 }
 
 .home-container {
-  height: 100vh;
+  height: 90vh;
 }
 
 .home-image-container {
-  height: 90%;
+  height: 100%;
   background-image: url('../images/library.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -63,7 +63,8 @@ nav a {
   align-items: center;
 }
 
-.book-card {
+.book-card,
+.book-details-card {
   margin: 0 2em;
   text-align: center;
 }
@@ -73,11 +74,25 @@ nav a {
   width: auto;
 }
 
+.book-details-card img {
+  height: 30em;
+  width: auto;
+}
+
+.book-card a {
+  text-decoration: none;
+  color: black;
+}
+
 form {
   height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.borrow-form {
+  height: 4em;
 }
 
 .form-inputs {
@@ -105,4 +120,23 @@ button {
   outline: inherit;
   border-radius: 0.3em;
   font-size: 1rem;
+}
+
+button.borrow {
+  outline: 1px solid brown;
+  background-color: white;
+  color: brown;
+  margin-top: 1em;
+  padding: 1em 2em;
+  cursor: pointer;
+  border-radius: 0.3em;
+  font-size: 1rem;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
 }
