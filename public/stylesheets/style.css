@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  height: 10vh;
+  width: 100vw;
+}
+
+ul {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+}
+
+nav {
+  height: 100%;
+}
+
+nav a {
+  text-decoration: none;
+  color: brown;
+  font-size: 1.4rem;
+}
+
+.home-container {
+  height: 100vh;
+}
+
+.home-image-container {
+  height: 90%;
+  background-image: url('../images/library.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.books-container {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.details-container {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.book-card {
+  margin: 0 2em;
+  text-align: center;
+}
+
+form {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+.radio div {
+  margin-bottom: 1em;
+  padding: 0.4em 1em;
+}
+
+.radio {
+  display: flex;
+}
+
+button {
+  background-color: brown;
+  color: rgb(227, 227, 227);
+  margin-top: 1em;
+  padding: 1em 2em;
+  cursor: pointer;
+  border: none;
+  outline: inherit;
+  border-radius: 0.3em;
+  font-size: 1rem;
+}
