@@ -1,0 +1,30 @@
+{
+  "name": "node_express_monolith_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexander-rusiecki/node_express_monolith_app.git"
+  },
+  "keywords": [],
+  "author": "Alexander Rusiecki <alexander.rusiecki@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexander-rusiecki/node_express_monolith_app/issues"
+  },
+  "homepage": "https://github.com/alexander-rusiecki/node_express_monolith_app#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.7",
+    "express": "^4.18.1",
+    "nanoid": "^3.3.4"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0"
+  }
+}
