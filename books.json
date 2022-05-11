@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Finding me",
+    "author": "Viola Davis",
+    "coverUrl": "https://storage.googleapis.com/du-prd/books/images/9780063037328.jpg",
+    "isAvailable": true,
+    "id": "MImEiyyUO1a0v0OiwndwT"
+  },
+  {
+    "title": "The palace papers",
+    "author": "Tina Brown",
+    "coverUrl": "https://storage.googleapis.com/du-prd/books/images/9780593138090.jpg",
+    "id": "uLdLoIV9dODAVQht8j9Sh",
+    "isAvailable": false
+  },
+  {
+    "title": "Unmasked",
+    "author": "Paul Holes",
+    "coverUrl": "https://storage.googleapis.com/du-prd/books/images/9781250622792.jpg",
+    "isAvailable": true,
+    "id": "Dx8ry_5vBVtH2lbcnTevg"
+  }
+]
