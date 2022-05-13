@@ -14,13 +14,6 @@
     "id": "XEybKfq2sotLwQVI31lPd"
   },
   {
-    "title": "Ugly love",
-    "author": "Colleen Hoover",
-    "coverUrl": "https://s2.adlibris.com/images/11242096/ugly-love.jpg",
-    "isAvailable": true,
-    "id": "L1sU2gMWdZisUdIElLfs3"
-  },
-  {
     "title": "The Diana chronicles",
     "author": "Tina Brown",
     "coverUrl": "https://images-na.ssl-images-amazon.com/images/I/41xZ2D2V+KL._SX322_BO1,204,203,200_.jpg",
@@ -40,5 +33,12 @@
     "coverUrl": "https://storage.googleapis.com/du-prd/books/images/9781250622792.jpg",
     "isAvailable": true,
     "id": "Dx8ry_5vBVtH2lbcnTevg"
+  },
+  {
+    "title": "Ugly love",
+    "author": "Colleen Hoover",
+    "coverUrl": "https://s2.adlibris.com/images/11242096/ugly-love.jpg",
+    "isAvailable": false,
+    "id": "L1sU2gMWdZisUdIElLfs3"
   }
 ]
