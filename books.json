@@ -1,17 +1,17 @@
 [
   {
+    "title": "Finding me",
+    "author": "Viola Davis",
+    "coverUrl": "https://storage.googleapis.com/du-prd/books/images/9780063037328.jpg",
+    "isAvailable": true,
+    "id": "MImEiyyUO1a0v0OiwndwT"
+  },
+  {
     "title": "Reminders of him",
     "author": "Colleen Hoover",
     "coverUrl": "https://s2.adlibris.com/images/61012033/reminders-of-him.jpg",
     "isAvailable": true,
     "id": "XEybKfq2sotLwQVI31lPd"
-  },
-  {
-    "title": "The palace papers",
-    "author": "Tina Brown",
-    "coverUrl": "https://storage.googleapis.com/du-prd/books/images/9780593138090.jpg",
-    "id": "uLdLoIV9dODAVQht8j9Sh",
-    "isAvailable": true
   },
   {
     "title": "Ugly love",
@@ -21,18 +21,18 @@
     "id": "L1sU2gMWdZisUdIElLfs3"
   },
   {
-    "title": "Finding me",
-    "author": "Viola Davis",
-    "coverUrl": "https://storage.googleapis.com/du-prd/books/images/9780063037328.jpg",
-    "isAvailable": true,
-    "id": "MImEiyyUO1a0v0OiwndwT"
-  },
-  {
     "title": "The Diana chronicles",
     "author": "Tina Brown",
     "coverUrl": "https://images-na.ssl-images-amazon.com/images/I/41xZ2D2V+KL._SX322_BO1,204,203,200_.jpg",
-    "isAvailable": false,
+    "isAvailable": true,
     "id": "1P5P5nyFFiK6rYe9T7s3Z"
+  },
+  {
+    "title": "The palace papers",
+    "author": "Tina Brown",
+    "coverUrl": "https://storage.googleapis.com/du-prd/books/images/9780593138090.jpg",
+    "id": "uLdLoIV9dODAVQht8j9Sh",
+    "isAvailable": false
   },
   {
     "title": "Unmasked",
