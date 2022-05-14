@@ -1,5 +1,19 @@
 [
   {
+    "title": "Ugly love",
+    "author": "Colleen Hoover",
+    "coverUrl": "https://s2.adlibris.com/images/11242096/ugly-love.jpg",
+    "isAvailable": false,
+    "id": "L1sU2gMWdZisUdIElLfs3"
+  },
+  {
+    "title": "Reminders of him",
+    "author": "Colleen Hoover",
+    "coverUrl": "https://s2.adlibris.com/images/61012033/reminders-of-him.jpg",
+    "isAvailable": false,
+    "id": "XEybKfq2sotLwQVI31lPd"
+  },
+  {
     "title": "Finding me",
     "author": "Viola Davis",
     "coverUrl": "https://storage.googleapis.com/du-prd/books/images/9780063037328.jpg",
@@ -7,11 +21,11 @@
     "id": "MImEiyyUO1a0v0OiwndwT"
   },
   {
-    "title": "Reminders of him",
-    "author": "Colleen Hoover",
-    "coverUrl": "https://s2.adlibris.com/images/61012033/reminders-of-him.jpg",
+    "title": "Unmasked",
+    "author": "Paul Holes",
+    "coverUrl": "https://storage.googleapis.com/du-prd/books/images/9781250622792.jpg",
     "isAvailable": true,
-    "id": "XEybKfq2sotLwQVI31lPd"
+    "id": "Dx8ry_5vBVtH2lbcnTevg"
   },
   {
     "title": "The Diana chronicles",
@@ -25,20 +39,34 @@
     "author": "Tina Brown",
     "coverUrl": "https://storage.googleapis.com/du-prd/books/images/9780593138090.jpg",
     "id": "uLdLoIV9dODAVQht8j9Sh",
-    "isAvailable": false
+    "isAvailable": true
   },
   {
-    "title": "Unmasked",
-    "author": "Paul Holes",
-    "coverUrl": "https://storage.googleapis.com/du-prd/books/images/9781250622792.jpg",
+    "title": "Book Lovers",
+    "author": "Emily Henry",
+    "coverUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1638867089l/58690308.jpg",
     "isAvailable": true,
-    "id": "Dx8ry_5vBVtH2lbcnTevg"
+    "id": "wUNFV1--HjLncJnBDbpkz"
   },
   {
-    "title": "Ugly love",
+    "title": "Verity",
     "author": "Colleen Hoover",
-    "coverUrl": "https://s2.adlibris.com/images/11242096/ugly-love.jpg",
+    "coverUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1634158558l/59344312._SY475_.jpg",
     "isAvailable": true,
-    "id": "L1sU2gMWdZisUdIElLfs3"
+    "id": "9acraHE7CRerAHB741BfK"
+  },
+  {
+    "title": "22 Seconds",
+    "author": "James Patterson",
+    "coverUrl": "https://images-na.ssl-images-amazon.com/images/I/51bZlR3vyWL._SX321_BO1,204,203,200_.jpg",
+    "isAvailable": true,
+    "id": "W_ubW28oQ8LNql6rBZsnv"
+  },
+  {
+    "title": "Rich Dad Poor Dad",
+    "author": "Robert T. Kiyosaki",
+    "coverUrl": "https://images-na.ssl-images-amazon.com/images/I/51u8ZRDCVoL._SX330_BO1,204,203,200_.jpg",
+    "isAvailable": false,
+    "id": "s5vFQqbDbuOZSBAVti_id"
   }
 ]

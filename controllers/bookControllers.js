@@ -54,7 +54,7 @@ const addBook = (req, res) => {
     books.push({
       ...req.body,
       id: nanoid(),
-      isAvailable: req.body.isAvailable === 'available' ? true : false,
+      isAvailable: !!req.body.isAvailable,
     });
     fs.writeFile('books.json', JSON.stringify(books, null, 2), err => {
       if (err) {
